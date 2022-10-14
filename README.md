@@ -1,2 +1,2 @@
 # Ecommerce
-https://github.com/edujavier/Ecommerce.git
+https://scintillating-toffee-2f4897.netlify.app
