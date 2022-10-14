@@ -1,0 +1,241 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+/*Header*/
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  box-shadow: 0 5px 15px burlywood;
+  background-color: rgb(243, 232, 219);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+  
+  justify-content:center
+}
+
+#navbar li{
+  list-style: none; /*retira los puntos de la lista ordenada*/
+  padding: 30px;
+}
+#navbar li a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/*hover de las letras de navbar*/
+#navbar li a:hover{
+  color: blue;
+}
+#navbar li a.active{
+  color: blue;
+}
+#hero{
+  padding: 50px;
+  height: 90vh;
+  width: 100vw;
+  
+   
+}
+.container{
+  display: flex;
+  gap: 20px;
+}
+#hero h4{
+  padding-bottom: 10px;
+}
+#hero button{
+  padding: 10px;
+  margin-top: 5px;
+  
+}
+#product1{
+  text-align: center;
+
+}
+#product1 .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+ 
+}
+#product1 .pro{
+  width: 24%;
+  min-width: 250px;
+  padding: 9px 12px;
+  border: 1px solid wheat;
+  margin-left: 10px;
+  position: relative;
+}
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 20px;
+}
+#newsletter h4{
+  font-size: 20px;
+  font-weight: 400;
+  color: cornflowerblue;
+}
+#newsletter p span{
+  font-size: 15px;
+  font-weight: 500;
+  color: darkcyan;
+
+}
+#newsletter{
+  display: flex;
+  width: 100%;
+
+}
+#newsletter input{
+  height: 2em;
+  padding: 0 1em;
+  font-size: 15px;
+  width: 100%;
+  border-radius: 5px;
+}
+#newsletter button{
+  background-color: rgb(63, 223, 63);
+  color: black;
+  border-radius: 5px;
+}
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(243, 232, 219);
+}
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 21px;
+}
+footer h4{
+  font-size: 14px;
+  padding-bottom: 21px;
+}
+footer p{
+  font-size: 13px;
+  margin:0 0 8px 0;
+}
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #223;
+  margin-bottom: 11px;
+}
+footer .follow{
+  margin-top: 21px;
+}
+footer .follow .icon{
+  padding-right: 5px;
+}
+footer .copyright{
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 480px){
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    box-shadow: 0 39px 58px black;
+  }
+  .car img{
+    width: 50%;
+    height: 100%;
+    margin-left: 14px;
+  }
+ .logo {
+    width: 70%;
+    height: 70%;
+  }
+
+}
+@media (max-width: 480px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  .container-imagen img{
+    width: 110%;
+    height: 100%;
+  }
+}
+@media (max-width: 480px){
+  #product1 .pro-container{
+    display: inline;
+    justify-content: center;
+    
+   
+  }
+  #product1 .pro{
+    width: 24%;
+    min-width: 250px;
+    padding: 9px 12px;
+    border: 1px solid wheat;
+    margin-left: 10px;
+    position: relative;
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 480px){
+  .pays img{
+    width: 70%;
+    
+  }
+  #newsletter{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+  }
+  #account{
+    margin-right: 25px;
+  }
+}
+
+.pushbar-menu{
+ 
+  background-color: beige;
+  
+}
+.pushbar-menu1{
+ 
+  background-color: beige;
+  
+}
+.pushbar-menu2{
+ 
+  background-color: beige;
+  
+}
+.carritoDes{
+  font-size: 20px;
+  
+}
